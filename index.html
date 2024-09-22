@@ -20,6 +20,18 @@
     <div class="container">
       <div id="sec1">
         <h1 class="heading1">手帳介紹</h1>
+        <h2><u>9/30 24:00</u> 前預購即贈【手帳半斷貼紙】</h2>
+        <p class="main-desp">
+          這應該是我最後一次出卡拉的東西了（立Flag）<br /><br />
+          這次手帳的發想來自每年到這個時候都會著手做明年自己的手帳本，然後腦中就突然閃過聰實房間的月曆！！<br /><br />
+          再加上明年剛好是2025，「25」即是狂聰的年齡差，於是這個手帳本就誕生了！<br /><br />
+          整體設計的概念是希望這本不只陪伴你2025，而是可以一直用下去的，所以採用活頁設計，封面也使用比較低調的黑色壓印，<br /><br />
+          根據「ブラック企業」的精神，採用黑色的皮革，好像是狂兒這個大叔會用的（？），<s>黑色企業發的禮贈品。</s><br /><br />
+          搭配活動式的金色筆夾，也可以拿下來當發票夾。<br /><br />
+          扉頁的部分我安排了4張狂兒在吶喊「紅——！！」的畫面，而到了第四張的背面時候，<br /><br />
+          會出現聰實說「你中間不插這首會死嗎？」的表情<br /><br />
+          最後就是附錄的卡片收納夾與鐳射PP收納夾，由於鐳射PP相卡夾比較特殊，是我從市面上買來手工裁切打洞。
+        </p>
         <!-- Swiper -->
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
           <div class="swiper-wrapper">
@@ -183,11 +195,19 @@
         loop: true,
         spaceBetween: 10,
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: "",
+          prevEl: "",
         },
         thumbs: {
           swiper: swiper,
+        },
+        breakpoints: {
+          640: {
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swipr-button-prev",
+            },
+          },
         },
       });
     </script>
