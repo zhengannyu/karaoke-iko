@@ -35,6 +35,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  @media screen and (max-width: 576px) {
+    bottom: 30px;
+    justify-content: end;
+    align-items: flex-end;
+  }
   a {
     font-size: 18px;
     display: block;
