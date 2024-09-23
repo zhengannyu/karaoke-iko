@@ -75,6 +75,9 @@ body {
     padding: 0px;
   }
 }
+.textarea .sec3 p {
+  text-align: center;
+}
 .textarea p {
   line-height: 200%;
 }
