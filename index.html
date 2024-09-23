@@ -148,6 +148,50 @@
       <div class="imgs">
         <img src="./asset/format 01.jpg" alt="" />
         <img src="./asset/format 02.jpg" alt="" />
+        <p>月計畫總覽</p>
+        <!-- Swiper -->
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperM2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./asset/monthly 01.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 02.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 03.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 04.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 05.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 06.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 07.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 08.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 09.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 10.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 11.JPG" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/monthly 12.JPG" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
         <img src="./asset/format 03.jpg" alt="" />
         <img src="./asset/format 04.jpg" alt="" />
         <p>扉頁的部分我安排了4張狂兒在吶喊「紅——！！」的畫面，而到了第四張的背面時候，會出現聰實說「你中間不插這首會死嗎?」的表情<br /><br /></p>
@@ -194,6 +238,16 @@
         },
         thumbs: {
           swiper: swiper,
+        },
+      });
+    </script>
+    <script>
+      var swiper2 = new Swiper(".mySwiperM2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
       });
     </script>
