@@ -110,6 +110,10 @@ body {
     width: 100%;
   }
 }
+.imgs p {
+  width: 100%;
+  text-align: center;
+}
 
 .btn {
   display: block;
@@ -141,7 +145,21 @@ body {
 }
 
 .swiper {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+@media screen and (max-width: 768px) {
+  .swiper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 20px;
+  }
 }
 
 .swiper-slide {
@@ -161,19 +179,9 @@ body {
      object-fit: cover;
 }
 
-.swiper {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .swiper-slide {
   background-size: cover;
   background-position: center;
-}
-
-.mySwiper2 {
-  width: 100%;
 }
 
 .mySwiper {
