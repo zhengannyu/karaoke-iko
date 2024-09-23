@@ -191,6 +191,7 @@
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
         <img src="./asset/format 03.jpg" alt="" />
         <img src="./asset/format 04.jpg" alt="" />
@@ -245,6 +246,10 @@
       var swiper2 = new Swiper(".mySwiperM2", {
         loop: true,
         spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
